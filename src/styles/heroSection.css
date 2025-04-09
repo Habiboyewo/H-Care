@@ -1,0 +1,91 @@
+.herocontainer {
+    background-image: url(../assets/hcareherophoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 78vh;
+    background-position: center;
+}
+.hero-section{
+    
+}
+
+.herocontent {
+    background-color: rgba(255, 255, 255, 0.475);
+    /* height: 300px; */
+    width: 280px;
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.herocontent>h1 {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+
+.herobutton {
+    background-color: #0474ED;
+    color: white;
+    Width: 140px;
+    Height: 28px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* .herobutton:hover{
+    margin-bottom: 10px;
+    font-size: 1rem;  
+}  */
+
+@media screen and (min-width: 768px) {
+    .herocontainer {
+        height: 85vh;
+
+    }
+
+    .herocontent {
+        background-color: rgba(255, 255, 255, 0.649);
+        /* height: 300px; */
+        border-radius: 5px;
+        width: 410px;
+        margin: 60px 0px 0px 45px;
+        padding: 10px;
+    }
+
+    .herocontent>p {
+
+        font-size: large;
+    }
+    .herobutton{
+
+        Width: 166px;
+        Height: 36px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .herocontainer {
+        height: 100vh;
+
+    }
+
+    .herocontent {
+        background-color: rgba(255, 255, 255, 0.649);
+        /* height: 300px; */
+        border-radius: 5px;
+        width: 460px;
+        margin: 70px 0px 0px 70px;
+        padding: 15px;
+    }
+
+    .herocontent>h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .herocontent>p {
+
+        font-size: large;
+    }
+
+}

@@ -1,0 +1,99 @@
+
+.homeservicecontainer {
+    background-color: #DEEEFF;
+}
+
+/* .ourservcard {} */
+.ourservicediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ourserviceimage {
+    height: 200px;
+    width: 280px;
+    /* max-width: 100%; */
+}
+
+.ourservicetextdiv {
+    margin-top: 6px;
+}
+
+#homeserviceh3 {
+    font-size: 16px
+}
+
+.homeservh2 {
+    text-align: center;
+
+}
+
+#homeservicepara {
+    font-size: medium;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .ourservicediv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        padding-top: 5px;
+    }
+
+    .ourserviceimage {
+        height: 180px;
+        width: 180px;
+
+    }
+
+    /* .servicecontainer {
+        padding:100px;
+    } */
+
+    .ourservicewrap {
+        margin: 0 46px 0 46px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* .ourservicewrap {
+        padding: 0 20px 0 20px;
+    } */
+
+    .ourservicediv {
+        padding-top: 5px;
+    }
+
+    .ourserviceimage {
+        height: 220px;
+        width: 260px;
+
+    }
+
+
+
+    .ourservicewrap {
+        margin: 0 60px ;
+    }
+
+    .readmore {
+        font-size: 18px;
+
+    }
+
+    .ourservicetextdiv {
+        margin-top: 10px;
+    }
+
+    #homeserviceh3 {
+        font-size: 20px
+    }
+
+
+}

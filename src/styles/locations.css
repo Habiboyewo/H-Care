@@ -1,0 +1,100 @@
+.lcard-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locationcard {
+    /* border: 1px solid #e0e0e0; */
+    width: 280px;
+    height: 220px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    margin: 10px 0px;
+    padding: 20px 12px 20px 12px;
+
+}
+
+.locationcard>H5 {
+    font-size: 28px;
+    padding-bottom: 10px;
+    /* font-weight: 500; */
+}
+
+.locationBtn {
+    background-color: #0474ED;
+    color: white;
+    width: 256px;
+    height: 38px;
+    border: none;
+    margin-top: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+    .lcard-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 40px;
+    }
+
+
+    .locationcard {
+        width: 190px;
+        height: 180px;
+        margin: 40px 0px;
+        padding: 20px 8px 20px 8px;
+
+
+    }
+
+    .locationcard>H5 {
+        font-size: 18px;
+    }
+
+    .locationcard>p {
+        font-size: 14px;
+        padding: 0 2px;
+    }
+
+    .locationBtn {
+        margin-left: 4px;
+        width: 170px;
+        height: 32px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .lcard-div {
+        margin: 0 60px;
+    }
+
+    .locationcard {
+        width: 240px;
+        height: 188px;
+        margin: 40px 0px;
+        padding: 20px 8px 20px 8px;
+
+    }
+
+    .locationcard>H5 {
+        font-size: 24px;
+    }
+
+    .locationcard>p {
+        font-size: 16px;
+    }
+
+    .locationBtn {
+        margin-left: 4px;
+        width: 220px;
+        height: 32px;
+        margin: 0;
+    }
+
+}

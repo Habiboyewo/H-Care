@@ -1,0 +1,36 @@
+.homeconsltcontainer{
+    background-color: #DEEEFF;
+}
+
+.homeconsltwrap{
+    background-color: #F2F8FF;
+
+    background-color: #fff;
+    width: 260px;
+}
+.homeconsltcard img{
+    display: block;
+    margin: auto;
+    margin-top: -36px;
+    width: 84px;
+
+}
+.homeconsltheadin{
+    margin-bottom: 60px;
+}
+@media(min-width:768px){
+    .homeconsltwrap{
+        width: 220px;
+    }
+    .consultreadmore{
+        text-align: center;
+    }
+}
+@media(min-width: 1024px){
+.homeconsltwrap{
+    width: 300px;
+}
+.homeconsltcontainer{
+    padding: 0 50px;
+}
+}

@@ -1,0 +1,118 @@
+.footer-form>input {
+    Width: 160px;
+    height: 30px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-left: 10px;
+
+}
+
+.footer-form>button {
+    background-color: #0474ED;
+    color: white;
+    Width: 90px;
+    Height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+.footer-form>button>span {
+    font-size: 10px;
+    padding-left: 2px;
+
+}
+
+.footer-p {
+    font-size: 14px;
+}
+
+footer>div>h6 {
+    font-size: 20px !important;
+    font-weight: 400;
+}
+
+.useful-links {
+    margin-top: 10px;
+}
+
+.useful-links>a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 14px;
+}
+
+.opening-hours {
+    margin-top: 20px;
+}
+
+.opening-hours>p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.footer-contact {
+    margin-top: 20px;
+}
+
+.footer-contact>a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px !important;
+        gap: 10px;
+        /* padding: 40px 130px 70px 70px !important; */
+    }
+
+    .footer-contact,
+    .opening-hours,
+    .useful-links {
+        margin-top: 0px;
+        
+    }
+
+    .footer-form>input {
+        Width: 160px;
+        height: 36px;
+        font-size: 18px;
+
+    }
+
+    .footer-form>button {
+        Width: 120px;
+        Height: 36px;
+        font-size: 18px;
+    }
+
+    .footer-logotext {
+        font-size: 20px !important;
+    }
+
+    .useful-links>a,.opening-hours>p{
+        font-size: 18px;
+    }
+
+
+    .footer-contact>a {
+        font-size: 18px;
+    }
+    .footer>div>h6{
+       font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 1024px) {}

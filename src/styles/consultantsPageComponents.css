@@ -1,0 +1,53 @@
+.consultantwrap {
+    width: 260px;
+    text-align: center;
+    padding: 16px 20px 0px 20px;
+
+}
+
+.consultantcard>img {
+
+    position: relative;
+    bottom: 20px;
+    width: 110px;
+    right: 10px;
+}
+
+.consultant-namecard {
+    position: relative;
+    bottom: 80px;
+    width: 200px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 0px 0.5px #00000040;
+    text-align: center;
+    padding-top: 100px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .consultantwrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+     
+    }
+
+    .consultantcard>img {
+        right: 0px;
+    }
+
+    .consultant-namecard {
+        height: 196px;
+        width: 200px;
+    }
+
+   
+
+}
+
+@media screen and (min-width: 1024px) {
+   
+   
+}
