@@ -10,7 +10,7 @@ const NavbarComponent = () => {
     return (
         <Navbar expand="md" className="bg-body-tertiary px-4 ">
             <Container fluid>
-                <Navbar.Brand href="#"> <img className='navlogo' src={hcarelogo} /> </Navbar.Brand>
+                <Navbar.Brand href="/"> <img className='navlogo' src={hcarelogo} /> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll ">
                     <Nav
