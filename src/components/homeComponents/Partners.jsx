@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/partners.css"
 import ubalogo from "../../assets/UBA-logo.png";
-import unilever from "../../assets/unilever.png";
+import unilever from "../../assets/Unilever.png";
 import nhis from "../../assets/NHIS-logo.png";
 import nestle from "../../assets/nestle.png";
 import dangote from "../../assets/Dangote.png";
