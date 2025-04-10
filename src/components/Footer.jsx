@@ -34,7 +34,7 @@ const Footer = () => {
     }
 
     return (
-        <footer className='footer bg-black text-white p-5 p-md-' >
+        <footer className='footer bg-black text-white p-5' >
 
             <div>
                 <img src={hcarelogo} alt="" />

@@ -1,5 +1,5 @@
-import React from 'react'
-import "../../styles/homeOurconsultant.css"
+
+import "../../styles/homeourconsultant.css"
 import { services } from "../../data/services"
 import { Link } from 'react-router-dom';
 
