@@ -43,6 +43,9 @@ textarea {
     background-color: white;
     padding-bottom: 10px;
 }
+.appointment-form>div>input {
+    height: 36px;
+}
 
 @media screen and (min-width: 768px) {
    

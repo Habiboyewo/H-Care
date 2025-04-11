@@ -5,14 +5,14 @@ import "../styles/consultantsPageComponents.css"
 
 const Consultantspagecomponents = () => {
     return (
-        <div className='p-4 container'>
+        <div className='px-5 py-3 container'>
             <h2 >Consultants</h2>
             <p>Lorem ipsum dolor sit amet consectetur. Odio vulputate non amet urna. Leo egestas velit mauris sem urna dapibus pulvinar. Fermentum dui lacus pretium sed adipiscing non urna amet. Hendrerit vitae lectus et turpis. Integer sodales sit aliquam risus. Proin odio tortor quam quam mattis eleifend tempus. Eget duis cum mauris aliquam adipiscing in nec. Sapien dolor aliquam sed duis egestas.</p>
 
             <div >
                 {services.map(service => (
                     <div key={service.id} >
-                        <h3 className='text-center text-md-start mb-4'>{service.title}</h3>
+                        <h3 className=' mb-4'>{service.title}</h3>
                        
                         <div className='consultantwrap '>
 

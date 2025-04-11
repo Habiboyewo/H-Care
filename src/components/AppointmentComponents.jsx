@@ -102,14 +102,14 @@ const AppointmentComponents = () => {
               <input
                 className='appointment-time'
                 type="time"
-                name="time"
+                placeholder='Time'
                 value={formData.time}
                 onChange={handleChange}
               />
               <input
                 className='appointment-date'
                 type="date"
-                name="date"
+                placeholder='Date'
                 value={formData.date}
                 onChange={handleChange}
               />

@@ -43,6 +43,9 @@ textarea {
     resize: none;
 
 }
+.contact-form>div>input {
+    height: 36px;
+}
 
 .contactmedia {
     justify-content: center;

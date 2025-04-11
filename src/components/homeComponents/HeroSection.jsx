@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const HeroSection = () => {
     return (
         <main className='herocontainer '>
-            <section className='hero-section py-3 px-4'>
+            <section className='hero-section pt-5 px-5'>
                 <div className='herocontent'>
                     <h1 className=" ">Your Health Is Our Priority</h1>
                     <p className=''>Lorem ipsum dolor sit amet consectetur. Dignissim pulvinar netus velit cursus erat nulla amet in. Consequat tincidunt sit elit amet mattis tincidunt libero vestibulum sit. Tempor sagittis habitant vitae rhoncus neque commodo sociis mollis quam.</p>

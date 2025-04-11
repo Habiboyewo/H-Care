@@ -5,16 +5,14 @@
     height: 78vh;
     background-position: center;
 }
-.hero-section{
-    
-}
+
 
 .herocontent {
     background-color: rgba(255, 255, 255, 0.475);
-    /* height: 300px; */
     width: 280px;
     margin: 0px 20px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .herocontent>h1 {
@@ -26,16 +24,11 @@
 .herobutton {
     background-color: #0474ED;
     color: white;
-    Width: 140px;
-    Height: 28px;
+    Width: 160px;
+    Height: 32px;
     border: none;
     border-radius: 4px;
 }
-
-/* .herobutton:hover{
-    margin-bottom: 10px;
-    font-size: 1rem;  
-}  */
 
 @media screen and (min-width: 768px) {
     .herocontainer {
@@ -44,9 +37,6 @@
     }
 
     .herocontent {
-        background-color: rgba(255, 255, 255, 0.649);
-        /* height: 300px; */
-        border-radius: 5px;
         width: 410px;
         margin: 60px 0px 0px 45px;
         padding: 10px;
