@@ -2,11 +2,13 @@
     width: 260px;
     text-align: center;
     padding: 16px 20px 0px 20px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
 .consultantcard>img {
-
     position: relative;
     bottom: 20px;
     width: 110px;
@@ -23,15 +25,17 @@
     box-shadow: 0px 1px 0px 0.5px #00000040;
     text-align: center;
     padding-top: 90px;
+    margin-bottom: -40px;
 }
 
 @media screen and (min-width: 768px) {
 
     .consultantwrap {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
-        gap: 30px;
-     
+        margin: 0;
+        gap: 30px;  
     }
 
     .consultantcard>img {
@@ -42,12 +46,7 @@
         height: 196px;
         width: 200px;
     }
-
-   
-
 }
 
-@media screen and (min-width: 1024px) {
-   
-   
+@media screen and (min-width: 1024px) {  
 }

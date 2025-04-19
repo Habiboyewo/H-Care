@@ -1,9 +1,8 @@
 
 .homeservicecontainer {
-    background-color: #DEEEFF;
+    /* background-color: #DEEEFF; */
 }
 
-/* .ourservcard {} */
 .ourservicediv {
     display: flex;
     flex-direction: column;
@@ -14,7 +13,7 @@
 .ourserviceimage {
     height: 200px;
     width: 280px;
-    /* max-width: 100%; */
+    max-width: 100%;
 }
 
 .ourservicetextdiv {
@@ -61,10 +60,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-
-    /* .ourservicewrap {
-        padding: 0 20px 0 20px;
-    } */
 
     .ourservicediv {
         padding-top: 5px;

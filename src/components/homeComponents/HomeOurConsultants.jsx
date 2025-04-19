@@ -10,7 +10,7 @@ const HomeOurConsultants = () => {
     const homeOurconsult = services.slice(0, 3)
 
     return (
-        <section className=' homeconsltcontainer px-4 px-md-5 pb-3 px-lg-5' >
+        <section className=' homeconsltcontainer px-4 py-3 px-md-5 pb-3 px-lg-5' >
             <div className='mainwrap'>
                 <div className='homeconsltheadin'>
                     <h2 className='text-center mb-2'>Our Consultants</h2>
@@ -26,7 +26,7 @@ const HomeOurConsultants = () => {
                                         <img className='' src={consultant.image} alt={consultant.name} />
                                         <div className='namecard mt-3'>
                                             <h6 className='fs-6 fw-bold' >{consultant.name}</h6>
-                                            <p >{consultant.role}</p>
+                                            <p>{consultant.role}</p>
                                         </div>
                                     </div>
                                 ))}

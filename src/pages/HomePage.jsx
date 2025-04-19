@@ -10,6 +10,7 @@ import Locations from '../components/homeComponents/Locations'
 import Partners from '../components/homeComponents/Partners'
 import Footer from '../components/Footer'
 import { useEffect } from 'react'
+import WhyChooseUs from '../components/homeComponents/WhyChooseUs'
 
 const HomePage = () => {
     useEffect(() => {
@@ -19,6 +20,7 @@ const HomePage = () => {
     <div >
       <NavbarComponent />
       <HeroSection />
+      <WhyChooseUs/>
       <HomeOurService />
       <HomeOurConsultants />
       {/* <HomeOurFacilities/> */}

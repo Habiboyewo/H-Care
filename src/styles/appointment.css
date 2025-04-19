@@ -9,14 +9,17 @@
     align-items: center;
 
 }
+.formdiv>h1 {
+    font-size: 34px;
+}
 
 
 
 .appointment-button {
     background-color: #0474ED;
     color: white;
-    Width: 140px;
-    Height: 30px;
+    Width: 160px;
+    Height: 34px;
     border: none;
     border-radius: 4px;
     font-size: 12px;
@@ -30,11 +33,11 @@
 .appointment-form>div>input,
 textarea {
     width: 260px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     background: #DEEEFF;
     padding: 2px 2px 2px 6px;
     border-radius: 4px;
-    border: 1px #D9D9D9 solid;
+    border: 3px #D9D9D9 solid;
     resize: none;
 
 }
@@ -42,6 +45,7 @@ textarea {
 .appointmentimg-div {
     background-color: white;
     padding-bottom: 10px;
+    display: none;
 }
 .appointment-form>div>input {
     height: 36px;
@@ -78,6 +82,7 @@ textarea {
         width: 50%;
         padding-top: 60px;
         padding-bottom: 20px;
+        display: initial;
     }
 
     .appointmentimg {

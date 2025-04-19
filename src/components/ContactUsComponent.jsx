@@ -119,7 +119,7 @@ const ContactUsComponent = () => {
             pauseOnFocusLoss
           />
 
-          <div className='mb-5'>
+          <div className='mb-3'>
             <h3 className='text-center'>OR</h3>
             <div className='contactmedia d-flex'>
               <div>
@@ -143,12 +143,10 @@ const ContactUsComponent = () => {
 
         </div>
 
-        <div className='m- text-center contactimg-div'>
+        <div className=' text-center contactimg-div'>
           <img className='contactimg' src={contactusimg} alt="Contact Us" />
         </div>
       </div>
-
-
     </div>
   );
 };

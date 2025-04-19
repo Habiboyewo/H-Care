@@ -9,14 +9,16 @@
     align-items: center;
 
 }
-
+.contactwrap>h1{
+    font-size: 40px;
+}
 
 
 .contact-button {
     background-color: #0474ED;
     color: white;
-    Width: 140px;
-    Height: 30px;
+    Width: 160px;
+    Height: 34px;
     border: none;
     border-radius: 4px;
     font-size: 12px;
@@ -30,16 +32,17 @@
 
 .contactimg-div {
     background-color: white;
+    display: none;
 }
 
 .contact-form>div>input,
 textarea {
     width: 260px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     background: #DEEEFF;
     padding: 2px 2px 2px 6px;
     border-radius: 4px;
-    border: 1px #D9D9D9 solid;
+    border: 3px  #D9D9D9 solid;
     resize: none;
 
 }
@@ -56,13 +59,15 @@ textarea {
     display: flex;
     flex-direction: column;
     padding-right: 26px;
+    align-items: center;
    
 }
 
 .media-icon {
     padding-left: 2px;
-    font-size: 34px;
+    font-size: 24px;
     padding-left: 4px;
+    
 }
 .contactmedia>div>a{
     font-size: small;
@@ -101,6 +106,7 @@ textarea {
         width: 50%;
         padding-top: 60px;
         padding-bottom: 20px;
+        display: initial;
     }
 
     .contactimg {
